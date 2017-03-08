@@ -41,5 +41,8 @@ nosetests.xml
 # Virtual environment
 venv
 
+# Environment Variables
+.env
+
 # IDE
 .idea
