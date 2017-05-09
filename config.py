@@ -11,14 +11,14 @@ class Config:
     SQLALCHEMY_RECORD_QUERIES = True
 
     # Gmail
-    # MAIL_SERVER = 'smtp.googlemail.com'
-    # MAIL_PORT = 587
-    # MAIL_USE_TLS = True
+    MAIL_SERVER = 'smtp.googlemail.com'
+    MAIL_PORT = 587
+    MAIL_USE_TLS = True
 
     # Mailhog
-    MAIL_SERVER = 'localhost'
-    MAIL_PORT = 1025
-    MAIL_USE_TLS = False
+    # MAIL_SERVER = 'localhost'
+    # MAIL_PORT = 1025
+    # MAIL_USE_TLS = False
 
     MAIL_USERNAME = os.environ.get('MAIL_USERNAME')
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
